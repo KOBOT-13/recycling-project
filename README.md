@@ -1,8 +1,8 @@
 # recycling-project Setup 문서
 
 ### 요구사항
-code Python 3.7.3
-code Raspberry Pi 4 Model B
+* Python 3.7.3
+* Raspberry Pi 4 Model B
 
 ### 가상환경 세팅
 ```bash
