@@ -1,0 +1,11 @@
+cmake==3.28.1
+distro==1.9.0
+numpy==1.21.6
+opencv-contrib-python==4.5.5.62
+opencv-python==4.7.0.72
+packaging==23.2
+pkg_resources==0.0.0
+RPi.GPIO==0.7.1
+scikit-build==0.17.6
+tomli==2.0.1
+typing_extensions==4.7.1
