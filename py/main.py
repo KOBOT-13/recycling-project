@@ -3,7 +3,7 @@ import time
 import cv2
 import threading
 from webcam_test import Camera
-
+from yolov5 import run
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -28,5 +28,6 @@ def setLed(n):
 if __name__ == '__main__':
     c = Camera()
     frame = c.getImage()
-    print(frame)
+    ans = run(weights= "best.pt", source=frame, conf=0.80)
+    setLed(ans)
     c.cam.release()

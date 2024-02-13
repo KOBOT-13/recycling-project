@@ -22,28 +22,7 @@ class Camera:
         
         if not status:
             raise Exception("Read error!!")
-            
-        
+
         self.cam.release()
         time.sleep(0.5)
     
-    
-'''webcam = cv2.VideoCapture(0)
-
-if not webcam.isOpened():
-    print("Could not")
-    exit()
-
-while webcam.isOpened():
-    status, frame = webcam.read()
-    print(frame)
-    
-    if status:
-        cv2.imshow("test", frame)
-    
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-    
-    time.sleep(0.5)
-webcam.release()
-cv2.destroyAllWindows()'''
