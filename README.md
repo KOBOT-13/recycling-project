@@ -25,3 +25,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 requirements.txt를 활용하여 의존성 패키지를 설치하여 줍니다.
+
+### /venv/lib/python3.11/site-packages/yolov5/detect.py 내부 폴더를 detect.py의 내용으로 대체합니다.
